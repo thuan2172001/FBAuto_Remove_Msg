@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .button-success {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button-alert {
+      background-color: gray;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button-danger {
+      background-color: red;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .github-link {
+      text-align: center;
+      font-size: 16px;
+      color: black;
+      margin: 4px 2px 0 0;
+    }
+
+    .facebook-link {
+      text-align: center;
+      font-size: 16px;
+      color: red;
+      margin: 4px 2px 0 0;
+    }
+
+    .version {
+      font-size: 14px;
+    }
+
+    .container {
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <button class="button-success" id="RemoveMessages">Remove Messages</button>
+    <button class="button-alert" id="ScrollToBottom">Scroll Down Inbox</button>
+    <button class="button-danger" id="Stop">Stop Removal</button>
+    <div id="LastCleared"></div>
+    <br />
+    <div class="version">Release version 2.0.3</div>
+    <i class="github-link">If u want to get source code of this extension, follow me at <a
+        href="https://github.com/thuan2172001">github address</a> </i>
+    <br />
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
