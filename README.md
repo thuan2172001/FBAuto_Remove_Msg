@@ -2,7 +2,7 @@
 
 ### Extension only run in messenger.com
 
-`How to run and developer:`
+`How to run and develop:`
 
 `Open manage extension on your browser and choose developer mode`
 
